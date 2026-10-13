@@ -1,0 +1,179 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f3f6fa;
+    font-family: Arial, sans-serif;
+    color: #172b46;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+
+header {
+    background: #1c4b7e;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 18px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 0 0 15px;
+}
+
+header p {
+    color: #c8def2;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background: #315e8e;
+    border: 1px solid #4c729a;
+    border-radius: 25px;
+    padding: 10px 16px;
+    margin: 4px;
+}
+
+
+section {
+    background: white;
+    padding: 28px;
+    margin-bottom: 25px;
+    border-radius: 17px;
+    box-shadow: 0 8px 25px #00000008;
+}
+
+section h2 {
+    color: #124575;
+    border-bottom: 1px solid #d9e7f5;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+
+section p {
+    line-height: 1.7;
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.about-content img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+span {
+    color: #0065b3;
+}
+
+.github-btn {
+    display: inline-block;
+    background: #0869ae;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+
+.skills {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill {
+    flex: 1;
+    min-width: 0;
+    background: #f8fbff;
+    border: 1px solid #dfebfa;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.skill h3 {
+    color: #0065b3;
+    margin-top: 0;
+}
+
+
+.job {
+    background: #f8fafc;
+    border: 1px solid #e0e9f3;
+    border-left: 4px solid #0872bd;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 18px 0;
+}
+
+.job-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.job-info img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.job h3 {
+    margin-top: 0;
+}
+
+.job h4 {
+    color: #0065b3;
+}
+
+
+#contact {
+    background: #1c4b7e;
+    color: white;
+}
+
+#contact h2 {
+    color: white;
+    border-color: #52759b;
+}
+
+#contact a {
+    display: inline-block;
+    color: white;
+    background: #315e8e;
+    text-decoration: none;
+    border: 1px solid #52759b;
+    border-radius: 7px;
+    padding: 12px 18px;
+    margin: 5px;
+}
+
+
+footer {
+    background: #081c38;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+
